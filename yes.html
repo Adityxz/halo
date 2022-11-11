@@ -12,27 +12,29 @@
         <h1>Kemana nih?</h1>
         <p>Jan sampe kejebak lagi wkwk</p>
     </div>
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSe-ceRhMaZZANf5kyEVhYtghsyiYObHF2GNjF2_TwpSW7xUsw/formResponse" class="container_place">
-        <input type="radio" name="entry.1033255773=Cinema+date">
-        <label for="entry.1033255773=Cinema+date">
-            <div class="movie card">
-                <img src="css/Final_2.png" alt="">
-                <h2>Cinema Date :)</h2>
-            </div>
+    <div class="main">
+        <form action="https://getform.io/f/aced5adb-55b3-4505-a6fc-2bab84771cd0" method="POST">
+        <!-- movie -->
+        <input type="radio" name="Tempat" value="Movie" id="movie" class="input-hidden" checked>
+        <label for="movie">
+            <img src="assets/jake-hills-23LET4Hxj_U-unsplash.jpg" />
+            <h2>Movie Date :)</h2>
         </label>
-        <label for="entry.1033255773=Malioboro">
-            <div class="Malioboro">
-                <img src="css/Final_2.png" alt="">
-                <h2>Cinema Date :)</h2>
-            </div>
+        <!-- tw -->
+        <input type="radio" name="Tempat" value="Malioboro" id="Malioboro" class="input-hidden">
+        <label for="Malioboro">
+            <img src="assets/culturetrip-o4fDnqGCdWM-unsplash.jpg" />
+            <h2>Malioboro</h2>
         </label>
-        <label for="entry.1033255773=Tawangmangu">
-            <div class="Tawangmangu">
-                <img src="css/Final_2.png" alt="">
-                <h2>Cinema Date :)</h2>
-            </div>
+        <!-- malioboro -->
+        <input type="radio" name="Tempat" value="tawangmangu" id="tawangmangu" class="input-hidden">
+        <label for="tawangmangu">
+            <img src="assets/Air-Terjun-Jumog.jpg" />
+            <h2>Tawangmangu</h2>
         </label>
-        <button type="submit">Submit</button>
-    </form>
+        <!-- select field handle -->
+        <button type="submit" class="send">Send</button>
+    </div>
+</form>
 </body>
 </html>
