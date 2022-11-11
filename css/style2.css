@@ -6,16 +6,17 @@
     font-family: 'poppins';
 }
 body {
-    background-color: #7dcfb6;
+    background-color: #4a4f74;
 }
 .title {
-    color: white;
-    margin: 10px 15px;
+    color: #ffcc7f;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
 }
 /* main */
 .main {
     width: 90%;
-    background-color: white;
     margin-right: auto;
     margin-left: auto;
     box-sizing: border-box;
@@ -26,11 +27,19 @@ img {
     width: 100%;
     box-sizing: border-box;
     border-radius: 15px;
+    transition: 0.6s ease-in-out;
 }
 h2 {
-    display: none;
-    transition: 0.6s;
+    /* display: none; */
+    transition: 0.2s;
     position: absolute;
+    color: white;
+    margin-top: -60px;
+    left: 50px;
+    opacity: 0;
+}
+h3 {
+    color: #ffcc7f;
 }
 .input-hidden {
     position: absolute;
@@ -38,18 +47,31 @@ h2 {
 }
   
 input[type=radio]:checked + label>h2 {
-   display: block;
+   /* display: block; */
    transition: 0.6s;
-   position: relative;
+   opacity: 1;
 }
 input[type=radio]:checked + label>img {
-    border: 2px solid #7dcfb6;
+    border: 3px solid #7dcfb6;
+    border-radius: 0px;
+    transition: 0.2s ease-in-out;
 }
 /* send */
 .send {
     border: none;
-    background-color: #7dcfb6;
+    background-color: #ffcc7f;
+    color: #4a4f74;
     padding: 10px 15px;
     border-radius: 15px;
     font-weight: 600;
+}
+/* terserah */
+.terserah {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #4a4f74;
 }
