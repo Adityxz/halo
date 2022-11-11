@@ -74,4 +74,5 @@ input[type=radio]:checked + label>img {
     box-sizing: border-box;
     border-radius: 10px;
     color: #4a4f74;
+    border-color: #ffcc7f;
 }
