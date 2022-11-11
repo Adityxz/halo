@@ -1,3 +1,42 @@
 https://docs.google.com/forms/d/e/1FAIpQLSe-ceRhMaZZANf5kyEVhYtghsyiYObHF2GNjF2_TwpSW7xUsw/viewform?usp=pp_url&
 entry.1033255773=Cinema+date
 
+entry.1543946216=__other_option__
+entry.1543946216=Malioboro
+
+entry.1543946216=Movie+Date+:)
+
+https://docs.google.com/forms/d/e/1FAIpQLScqByxTShfAlXD_MwakBrtntZPy7WK8WZPbHscgOO4XBiZOAw/formResponse
+entry.1543946216=Movie+Date+:)
+entry.987015795=gass
+
+
+<div class="title">
+        <h1>Kemana nih?</h1>
+        <p>Jan sampe kejebak lagi wkwk</p>
+    </div>
+    <!-- batas -->
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLScqByxTShfAlXD_MwakBrtntZPy7WK8WZPbHscgOO4XBiZOAw/formResponse" class="main">
+        <!-- batas -->
+        <input type="radio" name="entry.1543946216=Movie+Date+:)" id="entry.1543946216=Movie+Date+:)" class="input-hidden" />
+        <label for="Movie)">
+            <img src="assets/jake-hills-23LET4Hxj_U-unsplash.jpg" />
+            <h2>Movie Date :)</h2>
+        </label>
+        <!-- batas -->
+        <input type="radio" name="entry.1543946216=" id="Malioboro" class="input-hidden" />
+        <label for="Malioboro">
+            <img src="assets/culturetrip-o4fDnqGCdWM-unsplash.jpg" />
+            <h2>Malioboro</h2>
+        </label>
+        <!-- batas -->
+        <input type="radio" name="entry.1543946216=" id="Tawangmangu" class="input-hidden" />
+        <label for="Tawangmangu">
+            <img src="assets/culturetrip-o4fDnqGCdWM-unsplash.jpg" />
+            <h2>Tawangmangu</h2>
+        </label>
+        <!-- batas -->
+        <p>Gaada terserah-terserah,</p>
+        <input type="text" name="entry.1543946216=" id="__other_option__" placeholder="isi sendiri hehe">
+        <!-- submit -->
+        <button type="submit">submit</button>
