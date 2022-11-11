@@ -27,7 +27,7 @@ img {
     width: 100%;
     box-sizing: border-box;
     border-radius: 15px;
-    transition: 0.6s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 h2 {
     /* display: none; */
@@ -54,7 +54,7 @@ input[type=radio]:checked + label>h2 {
 input[type=radio]:checked + label>img {
     border: 3px solid #7dcfb6;
     border-radius: 0px;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 /* send */
 .send {
