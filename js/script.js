@@ -8,3 +8,12 @@ function moveHover(){
     b.style.left=i+"px"
     b.style.top=j+"px"
 }
+
+// get parameter link to overide title
+const custName = window.location.search;
+const urlParam = new URLSearchParams(custName);
+const params = urlParam.get('name');
+const first = "Hai"
+const finalName = first.concat(" ", params, ",<br>"," Wanna Hangout Sometimes?")
+
+document.getElementById("hai").innerHTML = (finalName);
